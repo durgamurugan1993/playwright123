@@ -17,5 +17,5 @@ for(let val of vale)
     }
 //expect(status).toBeTruthy()
  }
- 
+expect(status).toBeTruthy()
 })
