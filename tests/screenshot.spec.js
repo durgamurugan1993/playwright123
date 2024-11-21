@@ -15,7 +15,7 @@ for(let val of vale)
         status=true;
         break;
     }
-//expect(status).toBeTruthy()
+
  }
- 
+ expect(status).toBeTruthy()
 })
