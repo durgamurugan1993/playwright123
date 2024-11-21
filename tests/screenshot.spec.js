@@ -10,11 +10,13 @@ let status=false
 for(let val of vale)
  {
     let valoptn=await vale.textcontent()
+    
     if(vale.includes('Headphones'))
     {
         status=true;
         break;
     }
+    expect(vale).toContain('Headphones')
 //expect(status).toBeTruthy()
  }
 expect(status).toBeTruthy()
